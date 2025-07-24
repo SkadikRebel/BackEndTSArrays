@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Metallica",
+    "genre": "Metal",
+    "members": [
+      { "name": "James Hetfield", "instrument": "Guitar" },
+      { "name": "Lars Ulrich", "instrument": "Drums" }
+    ],
+    "originCountry": "USA",
+    "foundedYear": 1981,
+    "trackCount": 150
+  },
+  {
+    "name": "Nirvana",
+    "genre": "Rock",
+    "members": [
+      { "name": "Kurt Cobain", "instrument": "Guitar" },
+      { "name": "Dave Grohl", "instrument": "Drums" }
+    ],
+    "originCountry": "USA",
+    "foundedYear": 1987,
+    "trackCount": 70
+  },
+  {
+    "name": "Green Day",
+    "genre": "Punk",
+    "members": [
+      { "name": "Billie Joe Armstrong", "instrument": "Guitar" },
+      { "name": "Tré Cool", "instrument": "Drums" }
+    ],
+    "originCountry": "USA",
+    "foundedYear": 1986,
+    "trackCount": 100
+  },
+  {
+    "name": "Iron Maiden",
+    "genre": "Metal",
+    "members": [
+      { "name": "Bruce Dickinson", "instrument": "Vocals" },
+      { "name": "Steve Harris", "instrument": "Bass" }
+    ],
+    "originCountry": "UK",
+    "foundedYear": 1975,
+    "trackCount": 200
+  },
+  {
+    "name": "Sex Pistols",
+    "genre": "Punk",
+    "members": [
+      { "name": "Johnny Rotten", "instrument": "Vocals" },
+      { "name": "Sid Vicious", "instrument": "Bass" }
+    ],
+    "originCountry": "UK",
+    "foundedYear": 1975,
+    "trackCount": 30
+  },
+  {
+    "name": "Queen",
+    "genre": "Rock",
+    "members": [
+      { "name": "Freddie Mercury", "instrument": "Vocals" },
+      { "name": "Brian May", "instrument": "Guitar" }
+    ],
+    "originCountry": "UK",
+    "foundedYear": 1970,
+    "trackCount": 180
+  },
+  {
+    "name": "Slipknot",
+    "genre": "Metal",
+    "members": [
+      { "name": "Corey Taylor", "instrument": "Vocals" },
+      { "name": "Shawn Crahan", "instrument": "Percussion" }
+    ],
+    "originCountry": "USA",
+    "foundedYear": 1995,
+    "trackCount": 130
+  },
+  {
+    "name": "Ramones",
+    "genre": "Punk",
+    "members": [
+      { "name": "Joey Ramone", "instrument": "Vocals" },
+      { "name": "Johnny Ramone", "instrument": "Guitar" }
+    ],
+    "originCountry": "USA",
+    "foundedYear": 1974,
+    "trackCount": 90
+  },
+  {
+    "name": "AC/DC",
+    "genre": "Rock",
+    "members": [
+      { "name": "Angus Young", "instrument": "Guitar" },
+      { "name": "Brian Johnson", "instrument": "Vocals" }
+    ],
+    "originCountry": "Australia",
+    "foundedYear": 1973,
+    "trackCount": 160
+  },
+  {
+    "name": "Black Sabbath",
+    "genre": "Metal",
+    "members": [
+      { "name": "Ozzy Osbourne", "instrument": "Vocals" },
+      { "name": "Tony Iommi", "instrument": "Guitar" }
+    ],
+    "originCountry": "UK",
+    "foundedYear": 1968,
+    "trackCount": 110
+  }
+]
