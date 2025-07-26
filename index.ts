@@ -314,4 +314,90 @@ musicBands.forEach((band)=>{
 
 console.log(songsInCountry[OriginCountry.Australia]);
 
+//Array element = instrument (N17)
 
+type MemberInstrument = {
+    members: BandMember[]
+}
+
+const memberAndInstruments: MemberInstrument[] = musicBands.map((band, i) => {
+    return {
+        members: band.members
+    };
+});
+
+let bandsInstruments: Array<Array<string>> = new Array ;
+
+memberAndInstruments.forEach((band,i) => {
+    let cashInstruments: Array<string>=new Array;
+    band.members.forEach((member,i) => {
+        cashInstruments.push(member.instrument);
+    });
+    bandsInstruments.push(cashInstruments);
+});
+
+//сделать вывод
+
+//Unique instruments (N18) ONE TYPE LIKE 17 task 
+const uniqueInstrumentsList = new Set();
+
+memberAndInstruments.forEach((band,i) => {
+    band.members.forEach((member,i) => {
+        uniqueInstrumentsList.add(member.instrument);
+    });
+});
+
+uniqueInstrumentsList.forEach((i)=>{
+    console.log(i);
+});
+
+//Bands and members names lenghts list (N19)
+type BandsAndMembersNameLength = {
+    bandName: string
+    membersNamesLength: Array<number>
+}
+
+let bandsAndMembersNameLength : Array<BandsAndMembersNameLength> = new Array;
+musicBands.forEach((band) => {
+    let cashLength : Array<number> = new Array;
+
+    band.members.forEach((member) => {
+        cashLength.push(member.name.length);  
+    });
+
+    const result : BandsAndMembersNameLength = {
+        bandName : band.name,
+        membersNamesLength : cashLength
+       }
+    bandsAndMembersNameLength.push(result);
+});
+
+bandsAndMembersNameLength.forEach((a)=>{
+    console.log(a);
+});
+
+//LVL 4
+//ezy peazy (N20)
+
+//(map)
+function mapK<Type>(value: Type[]):Type[]{
+    if(value == null) return;
+
+    let array: Type[];
+    for(let i = 0; i < value.length+1; i++ ){
+        array.push(value[i])
+    }
+
+    return array;
+}
+
+function forEachK<Type>(callback){
+    for(let i = 0; i < this.length+1; i++ ){
+        callback(this[i], i);
+    }
+}
+
+let array: Array<string> = ["a","b","g"];
+forEachK((array)=>{
+    console.log(array);
+});
